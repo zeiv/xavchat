@@ -19,7 +19,6 @@ function setAlias() {
       socket.emit('setAlias', $("#aliasInput").val());
       $('#chatControls').show();
       $('#aliasInput').hide();
-      $('#aliasSet').hide();
    }
 }
 
